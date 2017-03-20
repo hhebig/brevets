@@ -1,0 +1,142 @@
+{
+  "name": "hhebig/brevets",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://hhebig.github.io/brevets/",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/hhebig/brevets",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "brevets",
+      "subhead": "Audax Cycling",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "brevets: Audax Cycling",
+          "url": "http://hhebig.github.io/brevets/"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "hhebig",
+          "repo": "brevets"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p>Langstrecken-Radfahren. Nicht als Rennen, aber gegen die Uhr.</p>\n<p><a href=\"http://player.vimeo.com/video/111599371\">http://player.vimeo.com/video/111599371</a></p>\n<h2>Randonneur 5000</h2>\n<p>5.000 Brevet-Kilometer binnen 4 Jahren ab Tag des ersten Brevets</p>\n<h3>Basis</h3>\n<p>Die erforderlichen Kilometer werden auf vorgebenen und auf frei w&#xE4;hlbaren Brevets gesammelt:</p>\n<ul>\n<li><strong>[Pflichtprogramm]</strong><ul>\n<li>1x Paris-Brest-Paris [1], 1.200 km</li>\n<li>1x komplette Brevet-Serie 200-300-400-600 km [2] + 1.000 km [3]</li>\n<li>1x Fl&#xE8;che Velocio oder Fl&#xE8;che Nationale [4]</li>\n</ul>\n</li>\n<li><strong>(F&#xFC;ller)</strong><ul>\n<li>beliebige BRM-Brevets (5)</li>\n<li>1.200er-Brevets</li>\n<li>Fl&#xE8;ches </li>\n</ul>\n</li>\n</ul>\n<h3>Ansatz</h3>\n<ul>\n<li><strong>PBP [1]</strong> findet alle 4 Jahre statt. Da alle 5.000er-Fahrten ebenfalls binnen 4 Jahren erledigt sein m&#xFC;ssen, gruppiert man die anderen Fahrten um PBP.</li>\n<li>Zur Qualifikation f&#xFC;r PBP muss im gleichen Jahr eine Brevet-Serie 200-300-400-600 <strong>[2]</strong> = 1.500 km gefahren werden.</li>\n<li>Zur Vorqualifikation f&#xFC;r PBP wird die im Jahr vor PBP gefahrene Serie gewertet. Je l&#xE4;nger das l&#xE4;ngste dabei gefahrene Brevet ist, desto eher darf man sich anmelden, desto sicherer ist die Teilnahme.</li>\n<li>N&#xE4;chstes PBP: August 2019. Kernjahre des 5.000er-Versuchs somit 2018 + 2019.</li>\n<li>Die <strong>Fl&#xE8;che [4]</strong> findet in D in allen geraden Jahren statt. Mindestdistanz 360 km. Um je nach F&#xFC;llern sp&#xE4;ter nicht eine L&#xFC;cke von 40 km zu haben, w&#xE4;hlt man ggf. eine Strecke mit mindestens 400 km. Alternative: NED/400 km. </li>\n<li>Zusammen mit dem <strong>1.000er [3]</strong> bleiben noch 900 km F&#xFC;ller <strong>(5)</strong>. F&#xFC;r die l&#xE4;sst man die Serie 200-300-400-600 km = 1.500 km aus der PBP-Vorqualifikation werten -&gt; Summe 5.600 km -&gt; Ziel erreicht!</li>\n</ul>\n<h3>M&#xF6;gliche Zeitpl&#xE4;ne</h3>\n<h4>Kern</h4>\n<p>Um (5)+[1]+[2] in zwei aufeinanderfolgenden Jahren kommt man nicht herum: </p>\n<table>\n<thead>\n<tr>\n<th>Jahr</th>\n<th>Fahrten</th>\n<th>km</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2018</td>\n<td>[2]</td>\n<td>1.500</td>\n</tr>\n<tr>\n<td></td>\n<td><em>Summe</em></td>\n<td><em>1.500</em></td>\n</tr>\n<tr>\n<td>2019</td>\n<td>[1]</td>\n<td>1.200</td>\n</tr>\n<tr>\n<td></td>\n<td>(5)</td>\n<td>1.500</td>\n</tr>\n<tr>\n<td></td>\n<td><em>Summe</em></td>\n<td><em>2.700</em></td>\n</tr>\n<tr>\n<td></td>\n<td><em>Gesamt</em></td>\n<td><em>4.200</em></td>\n</tr>\n</tbody>\n</table>\n<p>Bleiben die Fl&#xE8;che [4] und der 1.000er [3] zu verteilen:</p>\n<h4>Option A: Ausgeglichen</h4>\n<p>Das 1.000er [3] mit ins Vorbereitungsjahr, die Fl&#xE8;che [4] zur Abrundung der Sache ins Jahr nach PBP. Da in D/NED/BEL die Brevet-Saison meist im M&#xE4;rz beginnt und die Fl&#xE8;che Anfang Mai stattfinden, ist man mit dieser Option in 2 1/4 Jahren fertig.</p>\n<table>\n<thead>\n<tr>\n<th>Jahr</th>\n<th>Fahrten</th>\n<th>km</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2018</td>\n<td>[2]</td>\n<td>1.500</td>\n</tr>\n<tr>\n<td></td>\n<td>[3]</td>\n<td>1.000</td>\n</tr>\n<tr>\n<td></td>\n<td><em>Summe</em></td>\n<td><em>2.500</em></td>\n</tr>\n<tr>\n<td>2019</td>\n<td>(5)</td>\n<td>1.500</td>\n</tr>\n<tr>\n<td></td>\n<td>[1]</td>\n<td>1.200</td>\n</tr>\n<tr>\n<td></td>\n<td><em>Summe</em></td>\n<td><em>2.700</em></td>\n</tr>\n<tr>\n<td>2020</td>\n<td>[4]</td>\n<td>400</td>\n</tr>\n<tr>\n<td></td>\n<td><em>Summe</em></td>\n<td><em>400</em></td>\n</tr>\n<tr>\n<td></td>\n<td><em>Gesamt</em></td>\n<td><em>5.600</em></td>\n</tr>\n</tbody>\n</table>\n<h4>Option B: Schnelldurchgang</h4>\n<p>1.000er [3] und Fl&#xE8;che [4] ins Vorbereitungsjahr legen, und schon reichen 1 1/3 Jahr:</p>\n<table>\n<thead>\n<tr>\n<th>Jahr</th>\n<th>Fahrten</th>\n<th>km</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2018</td>\n<td>[2]</td>\n<td>1.500</td>\n</tr>\n<tr>\n<td></td>\n<td>[3]</td>\n<td>1.000</td>\n</tr>\n<tr>\n<td></td>\n<td>[4]</td>\n<td>400</td>\n</tr>\n<tr>\n<td></td>\n<td><em>Summe</em></td>\n<td><em>2.900</em></td>\n</tr>\n<tr>\n<td>2019</td>\n<td>(5)</td>\n<td>1.500</td>\n</tr>\n<tr>\n<td></td>\n<td>[1]</td>\n<td>1.200</td>\n</tr>\n<tr>\n<td></td>\n<td><em>Summe</em></td>\n<td><em>2.700</em></td>\n</tr>\n<tr>\n<td></td>\n<td><em>Gesamt</em></td>\n<td><em>5.600</em></td>\n</tr>\n</tbody>\n</table>\n<h4>Option C: Fallback</h4>\n<p>Alle Fahrten m&#xFC;ssen binnen 4 Jahren ab Tag des ersten zu wertenden Brevets absolviert werden, bei Beginn M&#xE4;rz 2018 also bis M&#xE4;rz 2022. Es gibt also gen&#xFC;gend M&#xF6;glichkeiten, die Fahrten zu entzerren, z.B. sowohl [3] als auch [4] nach hinten zu legen.</p>\n<p>Zu beachten sind dabei aber die Qualitfikationsregeln. Erfordert z.B. das 1000er zur Qualifikation die 200er bis 600er im gleichen Jahr, k&#xE4;men ggf. erhebliche Kilometer hinzu.</p>\n<h3>Und der &#xDC;berhang?</h3>\n<p>Rechnerisch reichen 600 Kilometer weniger F&#xFC;ller. In Praxis wird man sie zur Qualifikation und/oder Vorbereitung dennoch fahren wollen.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/hhebig/brevets",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/hhebig",
+          "text": "hhebig"
+        }
+      ]
+    }
+  ]
+}
